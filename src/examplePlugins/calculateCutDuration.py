@@ -10,7 +10,7 @@ def registerCallbacks(reg):
         'Shotgun_Shot_Change': ['sg_cut_in','sg_cut_out'],
     }
     
-    reg.registerCallback('$DEMO_SCRIPT_NAME$', '$DEMO_API_KEY$', calculateCutDuration, matchEvents, None)
+    reg.registerCallback('$cut02$', '$16e4689b24d7d541fe429ba8789a0ef60a2dd6d1bc49ea1b17734ca8f99881b0$', calculateCutDuration, matchEvents, None)
 
 
 def calculateCutDuration(sg, logger, event, args):
